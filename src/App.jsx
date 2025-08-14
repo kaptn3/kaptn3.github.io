@@ -12,6 +12,15 @@ const contacts = [
 
 const projects = [
   {
+    name: "future-imperfect-theme",
+    description: {
+      en: "Future Imperfect Theme on Jekyll",
+      ru: "Future Imperfect тема на базе Jekyll"
+    },
+    stack: ["Jekyll", "Sass"],
+    link: "https://github.com/kaptn3/future-imperfect"
+  },
+  {
     name: "Capital DEX",
     description: {
       en: "dApp for token swap, farming, and staking with multi-chain support and Uniswap v2 integration.",
