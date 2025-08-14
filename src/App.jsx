@@ -144,16 +144,17 @@ export default function App() {
           </h2>
           <div className="grid gap-6 sm:grid-cols-2">
             {projects.map((p, i) => (
-              <div
+              <a
                 key={i}
-                className="bg-gray-800 p-4 rounded-lg shadow hover:shadow-lg transition"
+                className="bg-gray-800 p-4 rounded-lg shadow-lg shadow-transparent hover:shadow-blue-500/30 transition duration-300"
+                href={p.link} target="_blank" rel="noreferrer"
               >
-                <a href={p.link} target="_blank" rel="noreferrer"><h3 className="text-xl font-bold">{p.name}</h3></a>
+                <h3 className="text-xl font-bold">{p.name}</h3>
                 <p className="text-gray-300 mt-2">{p.description[lang]}</p>
                 <div className="mt-3 text-sm text-gray-400">
                   Stack: {p.stack.join(", ")}
                 </div>
-              </div>
+              </a>
             ))}
           </div>
         </section>
