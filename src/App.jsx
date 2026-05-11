@@ -79,13 +79,13 @@ const projects = [
 const translations = {
   en: {
     greeting: "Hi👋! I’m Victoria, a Frontend Developer.",
-    work: 'I work at <a href="https://rebase.agency" class="text-blue-400 hover:underline">Rebase</a>.',
+    work: '',
     contactsTitle: "Contacts",
     projectsSubtitle: "Some of the projects I’ve worked on"
   },
   ru: {
     greeting: "Привет👋! Я Виктория, фронтенд-разработчик.",
-    work: 'Работаю в <a href="https://rebase.agency" class="text-blue-400 hover:underline">Rebase</a>.',
+    work: '',
     contactsTitle: "Контакты",
     projectsSubtitle: "Некоторые проекты, в которых я участвовала"
   },
